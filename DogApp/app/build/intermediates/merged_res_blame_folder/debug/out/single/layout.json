@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ITDocuments\\BKDocuments\\LTDD\\DogApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dog_library.xml",
+        "source": "D:\\ITDocuments\\BKDocuments\\LTDD\\DogApp\\app\\src\\main\\res\\layout\\dog_library.xml"
+    },
+    {
+        "merged": "D:\\ITDocuments\\BKDocuments\\LTDD\\DogApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\ITDocuments\\BKDocuments\\LTDD\\DogApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

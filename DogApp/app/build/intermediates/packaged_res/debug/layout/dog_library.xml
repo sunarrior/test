@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.dogapp.view.UrlImageView
+            android:id="@+id/imv_dog"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_dog_1"
+            android:scaleType="centerCrop"
+            ></com.example.dogapp.view.UrlImageView>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_desc"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="5dp"
+            ></TextView>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
